@@ -1,0 +1,20 @@
+@keyframes smooth-wave {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(15deg);
+    }
+
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
+#waving-hand {
+    display: inline-block;
+    font-size: inherit;
+    animation: smooth-wave 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    transform-origin: 70% 70%;
+}

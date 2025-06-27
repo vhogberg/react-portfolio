@@ -1,7 +1,7 @@
 function Sidebar() {
   return (
     <aside>
-      <h1>Test sidebar</h1>
+      <h1>Viktor Högberg</h1>
     </aside>
   );
 }

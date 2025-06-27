@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    gap: 1rem;
+}
+
+header a {
+    font-size: 1.2rem;
+}
