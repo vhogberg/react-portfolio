@@ -1,0 +1,9 @@
+/* Portrait image styling */
+#portrait {
+    max-width: 200px;
+}
+
+#contact-buttons {
+    display: flex;
+    gap: 0.5rem;
+}

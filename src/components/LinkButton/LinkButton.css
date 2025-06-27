@@ -1,0 +1,33 @@
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1.5px solid var(--color-element-border);
+  background-color: var(--color-element-background);
+  color: var(--color-text-titles);
+  text-decoration: none;
+
+  font-family: "BodyFont", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.link-button:hover {
+  background-color: var(--color-element-hover-background);
+  border-color: var(--color-element-hover-border);
+}
+
+.link-button:active {
+  transform: translateY(1px);
+}
+
+.link-button img {
+  width: 20px;
+  height: 20px;
+}

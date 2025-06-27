@@ -1,6 +1,6 @@
 import About from "./About/About";
 
-function Main() {
+function MainContent() {
   return (
     <>
       <About/>
@@ -8,4 +8,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default MainContent;
