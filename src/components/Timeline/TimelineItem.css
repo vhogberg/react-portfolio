@@ -1,0 +1,28 @@
+.timeline-item-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 50px;
+}
+
+.timeline-item-vertical-timeline {
+    position: relative;
+    display: flex;
+}
+
+.timeline-item-vertical-line {
+    position: relative;
+    background-color: gray;
+    width: 2px;
+    height: 100%;
+    margin-left: 2.4rem;
+}
+
+.timeline-item-vertical-line-logo {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
