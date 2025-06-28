@@ -4,6 +4,13 @@
 }
 
 #contact-buttons {
-    display: flex;
-    gap: 0.5rem;
+    display: block;
+}
+
+#contact-buttons a {
+    margin: 0rem 0.5rem 0.5rem 0rem;
+}
+
+aside {
+    min-width: 300px;
 }
