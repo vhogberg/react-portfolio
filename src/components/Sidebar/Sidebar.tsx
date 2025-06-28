@@ -1,8 +1,8 @@
-import emailIcon from "../../assets/icons/email-icon.svg";
-import githubIcon from "../../assets/icons/github-icon.svg";
-import instagramIcon from "../../assets/icons/instagram-icon.svg";
-import linkedinIcon from "../../assets/icons/linkedin-icon.svg";
 import portrait from "../../assets/images/portrait.png";
+import githubLogo from "../../assets/logos/github-logo.svg";
+import gmailLogo from "../../assets/logos/gmail-logo.svg";
+import instagramLogo from "../../assets/logos/instagram-logo.svg";
+import linkedinLogo from "../../assets/logos/linkedin-logo.svg";
 
 import LinkButton from "../LinkButton/LinkButton";
 
@@ -19,22 +19,22 @@ function Sidebar() {
       <div id="contact-buttons">
         <LinkButton
           href="https://www.linkedin.com/in/viktor-hogberg/"
-          icon={linkedinIcon}
+          icon={linkedinLogo}
           label="LinkedIn"
         />
         <LinkButton
           href="https://github.com/vhogberg"
-          icon={githubIcon}
+          icon={githubLogo}
           label="GitHub"
         />
         <LinkButton
           href="mailto:viktor.hogberg.work@gmail.com"
-          icon={emailIcon}
+          icon={gmailLogo}
           label="Email"
         />
         <LinkButton
           href="https://www.instagram.com/vhogbergphoto/"
-          icon={instagramIcon}
+          icon={instagramLogo}
           label="Instagram"
         />
       </div>

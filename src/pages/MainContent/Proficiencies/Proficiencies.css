@@ -1,0 +1,19 @@
+#proficiency-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (width > 800px) {
+    #proficiency-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (width > 1100px) {
+    #proficiency-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -14,7 +14,7 @@ function LinkButton({ href, icon, label }: LinkButtonProps) {
       rel="noopener noreferrer"
       className="link-button"
     >
-      <img src={icon} alt={`${label}-ikon`} className="link-button-icon" />
+      <img src={icon} alt={`${label}-logga`} className="link-button-icon" />
       <span className="link-button-label">{label}</span>
     </a>
   );
