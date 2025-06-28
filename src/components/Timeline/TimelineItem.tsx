@@ -1,6 +1,6 @@
 import "./TimelineItem.css";
 
-type TimelineItemProps = {
+export type TimelineItemProps = {
   date: string;
   title: string;
   organisation: string;
