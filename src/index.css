@@ -14,49 +14,49 @@
 }
 
 @font-face {
-    font-family: 'HeadingFont';
-    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-family: 'HeadingFont';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'BodyFont';
-    src: url('./assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-family: 'BodyFont';
+  src: url('./assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
 }
 
 /* Dark Mode (standard) */
 :root {
-    --color-background: rgb(12, 12, 12);
-    --color-text-titles: rgb(255, 255, 255);
-    --color-text-titles-muted: rgb(128, 128, 128);
-    --color-text-bodytext: rgb(185, 185, 185);
+  --color-background: rgb(12, 12, 12);
+  --color-text-titles: rgb(255, 255, 255);
+  --color-text-titles-muted: rgb(128, 128, 128);
+  --color-text-bodytext: rgb(185, 185, 185);
 
-    --color-element-background: rgb(37, 37, 37);
-    --color-element-border: rgb(70, 70, 70);
-    --color-element-hover-background: rgb(50, 50, 50);
-    --color-element-hover-border: rgb(100, 100, 100);
+  --color-element-background: rgb(37, 37, 37);
+  --color-element-border: rgb(70, 70, 70);
+  --color-element-hover-background: rgb(50, 50, 50);
+  --color-element-hover-border: rgb(100, 100, 100);
 
-    --color-element-2-background: rgb(24, 24, 24);
-    --color-element-2-background-hover: rgb(37, 37, 37);
+  --color-element-2-background: rgb(24, 24, 24);
+  --color-element-2-background-hover: rgb(37, 37, 37);
 }
 
 /* Light Mode  */
 :root.light-mode {
-    --color-background: rgb(250, 250, 250);
-    --color-text-titles: rgb(15, 15, 15);
-    --color-text-titles-muted: rgb(90, 90, 90);
-    --color-text-bodytext: rgb(50, 50, 50);
+  --color-background: rgb(250, 250, 250);
+  --color-text-titles: rgb(15, 15, 15);
+  --color-text-titles-muted: rgb(90, 90, 90);
+  --color-text-bodytext: rgb(50, 50, 50);
 
-    --color-element-background: rgb(235, 235, 235);
-    --color-element-border: rgb(180, 180, 180);
-    --color-element-hover-background: rgb(220, 220, 220);
-    --color-element-hover-border: rgb(140, 140, 140);
+  --color-element-background: rgb(235, 235, 235);
+  --color-element-border: rgb(180, 180, 180);
+  --color-element-hover-background: rgb(220, 220, 220);
+  --color-element-hover-border: rgb(140, 140, 140);
 
-    --color-element-2-background: rgb(242, 242, 242);
-    --color-element-2-background-hover: rgb(225, 225, 225);
+  --color-element-2-background: rgb(242, 242, 242);
+  --color-element-2-background-hover: rgb(225, 225, 225);
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #root {
@@ -70,7 +70,11 @@ body {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "HeadingFont";
 }
 
@@ -82,16 +86,18 @@ h2 {
   font-size: 1.4rem;
 }
 
-h3, h4 {
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+h5 {
   font-size: 1rem;
-}
-
-h4 {
-    font-weight: 700;
-}
-
-h4 {
-    font-weight: 500;
+  font-weight: 400;
 }
 
 p {
