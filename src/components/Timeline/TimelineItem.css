@@ -32,15 +32,34 @@
     background-color: gray;
     width: 30%;
     height: 1px;
-    margin: 1rem 0;
+    margin: 0.4rem 0;
     border-radius: 45px;
+}
+
+.timeline-item-container:last-child .timeline-item-separator-line {
+    display: none;
+}
+.timeline-item-container:last-child p  {
+    margin-bottom: 0.5rem;
+}
+
+.timeline-item-description p {
+  white-space: pre-line;
 }
 
 .timeline-item-description span {
     color: var(--color-text-bodytext);
+    font-size: 0.8rem;
+}
+
+.timeline-item-description h4,
+.timeline-item-description h5,
+.timeline-item-description p {
+    margin: 0.1rem 0;
+}
+
+
+.timeline-item-description p {
     font-size: 0.9rem;
 }
 
-.timeline-item-description h4, h5, p {
-    margin: 0.3rem 0;
-}

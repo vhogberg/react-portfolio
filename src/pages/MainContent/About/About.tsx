@@ -22,8 +22,15 @@ function About() {
       </p>
       <p>
         På fritiden har jag ett starkt intresse för{" "}
-        <a href="https://www.photos.viktorhogberg.com/">fotografering</a>, något
-        som har stärkt mitt öga för detaljer, visuella uttryck och struktur.
+        <a
+          href="https://www.photos.viktorhogberg.com/tag/favs"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          fotografering
+        </a>
+        , något som har stärkt mitt öga för detaljer, visuella uttryck och
+        struktur.
       </p>
     </section>
   );
