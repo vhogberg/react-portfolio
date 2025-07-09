@@ -32,19 +32,20 @@
     background-color: gray;
     width: 30%;
     height: 1px;
-    margin: 0.4rem 0;
+    margin: 0.4rem 0 0.2rem 0;
     border-radius: 45px;
 }
 
 .timeline-item-container:last-child .timeline-item-separator-line {
     display: none;
 }
-.timeline-item-container:last-child p  {
+
+.timeline-item-container:last-child p {
     margin-bottom: 0.5rem;
 }
 
 .timeline-item-description p {
-  white-space: pre-line;
+    white-space: pre-line;
 }
 
 .timeline-item-description span {
@@ -55,11 +56,10 @@
 .timeline-item-description h4,
 .timeline-item-description h5,
 .timeline-item-description p {
-    margin: 0.1rem 0;
+    margin: 0 0 0.1rem 0;
 }
 
 
 .timeline-item-description p {
     font-size: 0.9rem;
 }
-

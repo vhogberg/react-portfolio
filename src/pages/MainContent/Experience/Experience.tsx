@@ -3,13 +3,13 @@ import { experienceItems } from "../../../data/experienceData";
 
 import "./Experience.css";
 
-function Experience () {
-    return (
-        <>
-        <h1>Erfarenhet</h1>
-        <Timeline items={experienceItems}/>
-        </>
-    );
+function Experience() {
+  return (
+    <section id="experience">
+      <h1>Erfarenhet</h1>
+      <Timeline items={experienceItems} />
+    </section>
+  );
 }
 
 export default Experience;

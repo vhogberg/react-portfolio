@@ -25,7 +25,8 @@ Arbetet utfördes mestadels självständigt och under tidspress, vilket stärkte
     date: "10/2019 - 11/2019",
     title: "Systeminstallatör",
     organisation: "Sören Lundgren Byggkonsult AB",
-    description: `Jag ansvarade för driftsättning av nya datorer, vilket effektiviserade arbetsflödet och förbättrade den tekniska infrastrukturen i verksamheten. Detta innefattade installation av operativsystem och nödvändig programvara, samt mer specifik användaranpassning.`,
+    description: `Jag ansvarade för driftsättning av nya datorer, vilket effektiviserade arbetsflödet och förbättrade den tekniska infrastrukturen i verksamheten. 
+    Detta innefattade installation av operativsystem och nödvändig programvara, samt mer specifik användaranpassning.`,
     logo: slbLogo,
   },
   {
