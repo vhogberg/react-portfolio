@@ -1,8 +1,6 @@
 import Timeline from "../../../components/Timeline/Timeline";
 import { experienceItems } from "../../../data/experienceData";
 
-import "./Experience.css";
-
 function Experience() {
   return (
     <section id="experience">

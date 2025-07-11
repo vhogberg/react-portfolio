@@ -15,7 +15,6 @@ function Sidebar() {
       <h1>Viktor Högberg</h1>
       <h3>Data- och systemvetare</h3>
       <h4>📍 Stockholm, Sverige 🇸🇪</h4>
-      <h3>Kontakta mig!</h3>
       <div id="contact-buttons">
         <LinkButton
           href="https://www.linkedin.com/in/viktor-hogberg/"

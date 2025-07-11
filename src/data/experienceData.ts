@@ -1,9 +1,18 @@
 import ifInsuranceLogo from "../assets/logos/if-insurance-logo.svg";
 import macrentLogo from "../assets/logos/macrent-logo.png";
 import postnordLogo from "../assets/logos/postnord-logo.png";
+import raySearchLogo from "../assets/logos/raysearch-laboratories-logo.png";
 import slbLogo from "../assets/logos/slb-logo.png";
 
 export const experienceItems = [
+  {
+    date: "08/2025 - Pågående",
+    title: "Frontendutvecklare",
+    organisation: "RaySearch Laboratories AB",
+    description: `Ansvarar för att implementera moderna användargränssnitt för RayIntelligence, ett analysverktyg för strålbehandling.
+Jag utvecklar webbaserade applikationer med Apache Superset och bygger dynamiska och högkvalitativa datavisualiseringar med React, TypeScript och Apache ECharts.`,
+    logo: raySearchLogo,
+  },
   {
     date: "Sommar 2023 och 2024",
     title: "Service Desk Analyst",

@@ -1,0 +1,15 @@
+.award-item h4, .award-item h5, .award-item p {
+    margin: 0.2rem 0;
+}
+
+.award-item p {
+    font-size: 0.9rem;
+}
+
+.award-item h4 {
+    margin-left: -0.3rem;
+}
+
+.award-item {
+    margin-bottom: 2rem;
+}

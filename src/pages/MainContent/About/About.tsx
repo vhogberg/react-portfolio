@@ -7,12 +7,11 @@ function About() {
         Hej <span id="waving-hand">👋</span>
       </h1>
       <p>
-        Jag är en nyexaminerad data- och systemvetare med ett starkt intresse
-        för hur teknik kan förenkla, förbättra och tillgängliggöra digitala
-        upplevelser. Under min <a href="#education">utbildning</a> har jag
-        fördjupat mig inom utveckling, UX och design. Samtidigt har jag ett
-        brett tekniskt intresse som omfattar allt från systemutveckling till
-        IT-support och drift.
+        Jag är en data- och systemvetare med ett starkt intresse för hur teknik
+        kan förenkla, förbättra och tillgängliggöra digitala upplevelser. Under
+        min <a href="#education">utbildning</a> har jag fördjupat mig inom
+        utveckling, UX och design. Samtidigt har jag ett brett tekniskt intresse
+        som omfattar allt från systemutveckling till IT-support och drift.
       </p>
       <p>
         Jag är bra på att förstå både användarens behov och det tekniska bakom

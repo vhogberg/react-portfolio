@@ -1,8 +1,6 @@
 import Timeline from "../../../components/Timeline/Timeline";
 import { educationItems } from "../../../data/educationData";
 
-import "./Education.css";
-
 function Education() {
   return (
     <section id="education">
