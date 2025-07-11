@@ -3,6 +3,7 @@ import Awards from "./Awards/Awards";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
 import Proficiencies from "./Proficiencies/Proficiencies";
+import Projects from "./Projects/Projects";
 
 function MainContent() {
   return (
@@ -12,6 +13,7 @@ function MainContent() {
       <Experience/>
       <Education/>
       <Awards/>
+      <Projects/>
     </div>
   );
 }
