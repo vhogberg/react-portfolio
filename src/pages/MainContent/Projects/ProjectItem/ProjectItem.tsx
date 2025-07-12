@@ -9,7 +9,7 @@ import "./ProjectItem.css";
 
 type ProjectItemProps = {
   title: string;
-  description: string;
+  description: string[];
   githubLink: string;
   demoLink?: string;
   openLink?: string;
@@ -34,31 +34,24 @@ function ProjectItem({
         className="project-image"
       />
       <h4>{title}</h4>
-      <p>{description}</p>
+
+      <div className="project-description">
+        {description.map((text, index) => (
+          <p key={index}>{text}</p>
+        ))}
+      </div>
 
       <TechStack technologies={technologies} />
 
       <div className="project-buttons">
-        <LinkButton
-          href={githubLink}
-          icon={githubLogo}
-          label={"GitHub"}
-        />
+        <LinkButton href={githubLink} icon={githubLogo} label={"GitHub"} />
 
         {demoLink && (
-          <LinkButton
-            href={demoLink}
-            icon={demoIcon}
-            label={"Demo"}
-          />
+          <LinkButton href={demoLink} icon={demoIcon} label={"Demo"} />
         )}
 
         {openLink && (
-          <LinkButton
-            href={openLink}
-            icon={openLinkIcon}
-            label={"Öppna"}
-          />
+          <LinkButton href={openLink} icon={openLinkIcon} label={"Öppna"} />
         )}
       </div>
     </div>

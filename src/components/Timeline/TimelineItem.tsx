@@ -4,7 +4,7 @@ export type TimelineItemProps = {
   date: string;
   title: string;
   organisation: string;
-  description: string;
+  description: string[];
   logo: string;
 };
 
@@ -19,13 +19,21 @@ function TimelineItem({
     <div className="timeline-item-container">
       <div className="timeline-item-vertical-timeline">
         <div className="timeline-item-vertical-line"></div>
-        <img src={logo} alt={`${logo}-logga`} className="timeline-item-vertical-line-logo"/>
+        <img
+          src={logo}
+          alt={`${logo}-logga`}
+          className="timeline-item-vertical-line-logo"
+        />
       </div>
       <div className="timeline-item-description">
         <span>{date}</span>
         <h4>{title}</h4>
         <h5>{organisation}</h5>
-        <p>{description}</p>
+        <div className="timeline-item-description-text">
+          {description.map((text, index) => (
+            <p key={index}>{text}</p>
+          ))}
+        </div>
         <div className="timeline-item-separator-line"></div>
       </div>
     </div>

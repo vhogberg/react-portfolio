@@ -58,6 +58,9 @@
 .timeline-item-description p {
     margin: 0 0 0.1rem 0;
 }
+.timeline-item-description-text p {
+    margin: 0.3rem 0;
+}
 
 
 .timeline-item-description p {
