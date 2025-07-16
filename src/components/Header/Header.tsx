@@ -21,7 +21,6 @@ function Header() {
     <header>
       <img src={myLogo} alt="Min logga" />
       <nav className="desktop-menu">
-        <a href="#about-me">Om mig</a>
         <a href="#experience">Erfarenhet</a>
         <a href="#education">Utbildning</a>
         <a href="#awards">Priser</a>
@@ -31,7 +30,7 @@ function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Fotografi
+          Fotografiportfölj
         </a>
       </nav>
       <div className="right-buttons">
@@ -97,9 +96,6 @@ function Header() {
         </button>
       </div>
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
-        <a href="#about-me" onClick={() => setMenuOpen(false)}>
-          Om mig
-        </a>
         <a href="#experience" onClick={() => setMenuOpen(false)}>
           Erfarenhet
         </a>
@@ -118,7 +114,7 @@ function Header() {
           rel="noopener noreferrer"
           onClick={() => setMenuOpen(false)}
         >
-          Fotografi
+          Fotografiportfölj
         </a>
       </div>
     </header>
