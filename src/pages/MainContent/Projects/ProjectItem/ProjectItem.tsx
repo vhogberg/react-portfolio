@@ -3,6 +3,7 @@ import TechStack from "./TechStack/TechStack";
 
 import openLinkIcon from "../../../../assets/icons/open-link-icon.svg";
 import demoIcon from "../../../../assets/icons/video-icon.svg";
+import githubLogoLight from "../../../../assets/logos/github-logo-light-mode.svg";
 import githubLogo from "../../../../assets/logos/github-logo.svg";
 
 import "./ProjectItem.css";
@@ -45,7 +46,7 @@ function ProjectItem({
 
       <div className="project-buttons">
         {githubLink && (
-          <LinkButton href={githubLink} icon={githubLogo} label={"GitHub"} />
+          <LinkButton href={githubLink} icon={githubLogo} iconLight={githubLogoLight} label={"GitHub"} />
         )}
 
         {demoLink && (

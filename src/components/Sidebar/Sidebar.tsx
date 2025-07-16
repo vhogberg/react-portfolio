@@ -1,4 +1,5 @@
 import portrait from "../../assets/images/portrait.png";
+import githubLogoLight from "../../assets/logos/github-logo-light-mode.svg";
 import githubLogo from "../../assets/logos/github-logo.svg";
 import gmailLogo from "../../assets/logos/gmail-logo.svg";
 import instagramLogo from "../../assets/logos/instagram-logo.svg";
@@ -24,6 +25,7 @@ function Sidebar() {
         <LinkButton
           href="https://github.com/vhogberg"
           icon={githubLogo}
+          iconLight={githubLogoLight}
           label="GitHub"
         />
         <LinkButton

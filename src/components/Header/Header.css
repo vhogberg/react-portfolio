@@ -46,8 +46,8 @@ header img {
 .menu-toggle {
     background: none;
     border: none;
-    font-size: 1.3rem;
     cursor: pointer;
+    color: var(--color-text-titles);
 }
 
 /* Mobilmeny */
