@@ -10,11 +10,11 @@ import "./ProjectItem.css";
 type ProjectItemProps = {
   title: string;
   description: string[];
-  githubLink: string;
+  githubLink?: string;
   demoLink?: string;
   openLink?: string;
   imageUrl: string;
-  technologies: string[];
+  technologies?: string[];
 };
 
 function ProjectItem({
@@ -41,10 +41,12 @@ function ProjectItem({
         ))}
       </div>
 
-      <TechStack technologies={technologies} />
+      {technologies && <TechStack technologies={technologies} />}
 
       <div className="project-buttons">
-        <LinkButton href={githubLink} icon={githubLogo} label={"GitHub"} />
+        {githubLink && (
+          <LinkButton href={githubLink} icon={githubLogo} label={"GitHub"} />
+        )}
 
         {demoLink && (
           <LinkButton href={demoLink} icon={demoIcon} label={"Demo"} />

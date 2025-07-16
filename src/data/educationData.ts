@@ -10,7 +10,7 @@ export const educationItems = [
     description: [
       "Data- och systemvetenskapligt kandidatprogram.",
       "Kurser i objektorienterad programmering, programmering för mobiler och webb, prototyputveckling, sökmotorer, beslutstödssystem, informationssäkerhet, databasmetodik och mer!",
-      "Betyg: 3.9/4.0 (GPA)"
+      "Betyg: 3.9/4.0 (GPA)."
     ],
     logo: suLogo,
   },

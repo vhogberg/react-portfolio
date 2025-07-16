@@ -19,7 +19,7 @@ function Projects() {
         Här listas några projekt jag har skapat, mer info om specifika tekniker
         och funktioner finns i respektive projekts README-fil på Github!
       </p>
-      <div id="projects-container">
+      <div className="projects-container">
         <ProjectItem
           title="SortingLab"
           description={[

@@ -6,8 +6,8 @@ function Header() {
       <a href="#about-me">Om mig</a>
       <a href="#experience">Erfarenhet</a>
       <a href="#education">Utbildning</a>
-      <a href="#projects">Projekt</a>
       <a href="#awards">Priser</a>
+      <a href="#projects">Projekt</a>
       <a
         href="https://drive.google.com/file/d/1ko6YJcgwaNSFovzffVD9ntclJnnVz_x_/view?usp=drive_link"
         target="_blank"
