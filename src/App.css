@@ -4,7 +4,39 @@
 }
 
 @media screen and (min-width: 651px) {
-    .wrapper {
-      flex-direction: row;
-    }
- }
+  .wrapper {
+    flex-direction: row;
+  }
+}
+
+
+@media screen and (min-width: 651px) {
+  aside {
+
+    
+
+    min-width: 250px;
+    max-width: 300px;
+
+    position: fixed;
+    top: 11rem;
+    /* distance from top of viewport */
+    left: auto;
+    /* distance from left of viewport */
+  }
+
+  .main-content {
+    margin-left: 270px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  aside {
+    margin-right: 3rem;
+    margin-left: 1.5rem;
+  }
+
+  .main-content {
+    margin-left: 300px;
+  }
+}

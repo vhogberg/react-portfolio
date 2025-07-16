@@ -8,7 +8,7 @@ import Projects from "./Projects/Projects";
 
 function MainContent() {
   return (
-    <div>
+    <div className="main-content">
       <About/>
       <Proficiencies/>
       <Experience/>
