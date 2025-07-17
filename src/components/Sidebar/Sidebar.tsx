@@ -12,8 +12,10 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <aside>
-      <img src={portrait} alt="Porträtt" id="portrait" />
-      <h1>Viktor Högberg</h1>
+      <div className="profile-header">
+        <h1 id="title-name">Viktor Högberg</h1>
+        <img src={portrait} alt="Porträtt" id="portrait" />
+      </div>
       <h3>Data- och systemvetare</h3>
       <h4>📍 Stockholm, Sverige 🇸🇪</h4>
       <div id="contact-buttons">
