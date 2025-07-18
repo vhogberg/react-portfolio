@@ -1,21 +1,24 @@
 import "./ProficiencyItem.css";
 
 type ProficiencyItemProps = {
-    icon: string;
-    title: string;
-    bgColor: string;
-}
+  icon: string;
+  title: string;
+};
 
-function ProficiencyItem ({icon, title, bgColor} : ProficiencyItemProps) {
-    return (
-        <div className="proficiency-item">
-            <img src={icon} alt={`${title}-ikon`} className="proficiency-logo" style={{ backgroundColor: bgColor }} />
-            <div>
-                <h4>{title}</h4>
-                
-            </div>
-        </div>
-    );
+function ProficiencyItem({ icon, title }: ProficiencyItemProps) {
+  const key = title.toLowerCase();
+  return (
+    <div className="proficiency-item">
+      <img
+        src={icon}
+        alt={`${title}-ikon`}
+        className={`proficiency-logo proficiency-logo--${key}`}
+      />
+      <div>
+        <h4>{title}</h4>
+      </div>
+    </div>
+  );
 }
 
 export default ProficiencyItem;

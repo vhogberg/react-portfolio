@@ -3,7 +3,7 @@
     border-radius: 8px;
     padding: 0.5rem;
     display: flex;
-   
+
     place-items: center;
 }
 
@@ -20,3 +20,100 @@
     padding: 0.3rem;
 }
 
+/* Dark mode colors (default) */
+.proficiency-logo--html5 {
+    background-color: rgb(73, 46, 42);
+}
+
+.proficiency-logo--css {
+    background-color: rgb(52, 37, 59);
+}
+
+.proficiency-logo--javascript {
+    background-color: rgb(89, 79, 32);
+}
+
+.proficiency-logo--react {
+    background-color: rgb(39, 54, 61);
+}
+
+.proficiency-logo--typescript {
+    background-color: rgb(36, 49, 85);
+}
+
+.proficiency-logo--flutter {
+    background-color: rgb(31, 53, 73);
+}
+
+.proficiency-logo--java {
+    background-color: rgb(63, 51, 40);
+}
+
+.proficiency-logo--jetpack {
+    background-color: rgba(32, 77, 65, 1);
+}
+
+.proficiency-logo--figma {
+    background-color: rgba(42, 61, 51, 1);
+}
+
+.proficiency-logo--kotlin {
+    background-color: rgb(49, 40, 66);
+}
+
+.proficiency-logo--python {
+    background-color: rgb(50, 60, 71);
+}
+
+.proficiency-logo--git {
+    background-color: rgb(73, 46, 42);
+}
+
+/* Light mode overrides */
+.light-mode .proficiency-logo--html5 {
+    background-color: rgb(225, 200, 180);
+}
+
+.light-mode .proficiency-logo--css {
+    background-color: rgb(210, 200, 230);
+}
+
+.light-mode .proficiency-logo--javascript {
+    background-color: rgb(240, 225, 180);
+}
+
+.light-mode .proficiency-logo--react {
+    background-color: rgb(220, 220, 220);
+}
+
+.light-mode .proficiency-logo--typescript {
+    background-color: rgb(225, 225, 245);
+}
+
+.light-mode .proficiency-logo--flutter {
+    background-color: rgb(230, 235, 240);
+}
+
+.light-mode .proficiency-logo--java {
+    background-color: rgb(230, 215, 200);
+}
+
+.light-mode .proficiency-logo--jetpack {
+    background-color: rgb(215, 235, 225);
+}
+
+.light-mode .proficiency-logo--figma {
+    background-color: rgb(225, 230, 225);
+}
+
+.light-mode .proficiency-logo--kotlin {
+    background-color: rgb(235, 225, 245);
+}
+
+.light-mode .proficiency-logo--python {
+    background-color: rgb(230, 235, 240);
+}
+
+.light-mode .proficiency-logo--git {
+    background-color: rgb(230, 200, 180);
+}

@@ -27,9 +27,9 @@ const proficiencies = [
   {
     icon: jetpackComposeLogo,
     title: "Jetpack",
-    bgColor: "rgb(37, 55, 89)",
+    bgColor: "rgba(32, 77, 65, 1)",
   },
-  { icon: figmaLogo, title: "Figma", bgColor: "rgb(57, 42, 61)" },
+  { icon: figmaLogo, title: "Figma", bgColor: "rgba(42, 61, 51, 1)" },
   { icon: kotlinLogo, title: "Kotlin", bgColor: "rgb(49, 40, 66)" },
   { icon: pythonLogo, title: "Python", bgColor: "rgb(50, 60, 71)" },
   { icon: gitLogo, title: "Git", bgColor: "rgb(73, 46, 42)" },
@@ -45,7 +45,6 @@ function Proficiencies() {
             key={index}
             icon={item.icon}
             title={item.title}
-            bgColor={item.bgColor}
           />
         ))}
       </div>
