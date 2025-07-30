@@ -23,7 +23,7 @@ function Header() {
       <nav className="desktop-menu">
         <a href="#experience">Erfarenhet</a>
         <a href="#education">Utbildning</a>
-        <a href="#awards">Priser</a>
+        <a href="#awards">Utmärkelser</a>
         <a href="#projects">Projekt</a>
         <a
           href="https://www.photos.viktorhogberg.com/"
@@ -97,7 +97,7 @@ function Header() {
       </div>
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
         <a href="#experience" onClick={() => setMenuOpen(false)}>
-          Erfarenhet
+          Erfarenheter
         </a>
         <a href="#education" onClick={() => setMenuOpen(false)}>
           Utbildning

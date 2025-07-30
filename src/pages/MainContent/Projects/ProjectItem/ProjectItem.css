@@ -1,5 +1,5 @@
 .project-item {
-background-color: var(--color-element-2-background);
+background-color: var(--color-main-element-background);
     border-radius: 8px;
     padding: 1rem;
     break-inside: avoid;

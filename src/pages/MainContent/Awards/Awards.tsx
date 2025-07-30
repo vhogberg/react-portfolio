@@ -3,7 +3,7 @@ import AwardItem from "./AwardItem/AwardItem";
 function Awards() {
   return (
     <section id="awards">
-      <h1>Priser</h1>
+      <h1>Utmärkelser</h1>
 
       <AwardItem
         title="🏆 Bästa hemsida"

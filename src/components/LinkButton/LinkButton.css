@@ -5,8 +5,8 @@
 
   padding: 8px 14px;
   border-radius: 6px;
-  border: 1.5px solid var(--color-element-border);
-  background-color: var(--color-element-background);
+  border: 1.5px solid var(--color-button-border);
+  background-color: var(--color-button-background);
   color: var(--color-text-titles);
   text-decoration: none;
 
@@ -19,8 +19,8 @@
 }
 
 .link-button:hover {
-  background-color: var(--color-element-hover-background);
-  border-color: var(--color-element-hover-border);
+  background-color: var(--color-button-hover-background);
+  border-color: var(--color-button-hover-border);
 }
 
 .link-button:active {

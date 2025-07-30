@@ -4,7 +4,7 @@ import { experienceItems } from "../../../data/experienceData";
 function Experience() {
   return (
     <section id="experience">
-      <h1>Erfarenhet</h1>
+      <h1>Erfarenheter</h1>
       <Timeline items={experienceItems} />
     </section>
   );

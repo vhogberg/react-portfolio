@@ -30,13 +30,13 @@
   --color-text-titles-muted: rgb(128, 128, 128);
   --color-text-bodytext: rgb(185, 185, 185);
 
-  --color-element-background: rgb(37, 37, 37);
-  --color-element-border: rgb(70, 70, 70);
-  --color-element-hover-background: rgb(50, 50, 50);
-  --color-element-hover-border: rgb(100, 100, 100);
+  --color-main-element-background: rgb(24, 24, 24);
+  --color-main-element-background-hover: rgb(30, 30, 30);
 
-  --color-element-2-background: rgb(24, 24, 24);
-  --color-element-2-background-hover: rgb(37, 37, 37);
+  --color-button-background: rgb(37, 37, 37);
+  --color-button-border: rgb(70, 70, 70);
+  --color-button-hover-background: rgb(50, 50, 50);
+  --color-button-hover-border: rgb(100, 100, 100);
 }
 
 :root.light-mode {
@@ -45,13 +45,13 @@
   --color-text-titles-muted: rgb(105, 105, 105);
   --color-text-bodytext: rgb(40, 40, 40);
 
-  --color-element-background: rgb(245, 245, 245);
-  --color-element-border: rgb(220, 220, 220);
-  --color-element-hover-background: rgb(235, 235, 235);
-  --color-element-hover-border: rgb(180, 180, 180);
+  --color-main-element-background: rgb(250, 250, 250);
+  --color-main-element-background-hover: rgb(240, 240, 240);
 
-  --color-element-2-background: rgb(250, 250, 250);
-  --color-element-2-background-hover: rgb(240, 240, 240);
+  --color-button-background: rgb(245, 245, 245);
+  --color-button-border: rgb(220, 220, 220);
+  --color-button-hover-background: rgb(235, 235, 235);
+  --color-button-hover-border: rgb(180, 180, 180);
 }
 
 html,

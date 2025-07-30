@@ -1,10 +1,16 @@
 .proficiency-item {
-    background-color: var(--color-element-2-background);
+    background-color: var(--color-main-element-background);
     border-radius: 8px;
     padding: 0.5rem;
     display: flex;
 
     place-items: center;
+}
+
+.proficiency-item:hover {
+    background-color: var(--color-main-element-background-hover);
+    border: 1px solid var(--color-main-element-border-hover);
+    transition: background-color 0.5s ease;
 }
 
 .proficiency-item * {
@@ -61,8 +67,8 @@
     background-color: rgb(49, 40, 66);
 }
 
-.proficiency-logo--python {
-    background-color: rgb(50, 60, 71);
+.proficiency-logo--vite {
+    background-color: rgb(58, 51, 68);
 }
 
 .proficiency-logo--git {
@@ -110,8 +116,8 @@
     background-color: rgb(235, 225, 245);
 }
 
-.light-mode .proficiency-logo--python {
-    background-color: rgb(230, 235, 240);
+.light-mode .proficiency-logo--vite {
+    background-color: rgb(238, 230, 240);
 }
 
 .light-mode .proficiency-logo--git {

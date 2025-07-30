@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     padding: 0 2rem;
     height: 60px;
-    background: var(--color-element-2-background);
+    background: var(--color-main-element-background);
     position: relative;
     z-index: 10;
 
@@ -58,7 +58,7 @@ header img {
     position: absolute;
     top: 70px;
     right: 0;
-    background: var(--color-element-2-background);
+    background: var(--color-main-element-background);
     border-radius: 1rem;
     width: 200px;
     padding: 1rem;

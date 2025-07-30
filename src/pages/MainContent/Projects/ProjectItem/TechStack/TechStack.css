@@ -51,7 +51,7 @@
     bottom: 120%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--color-element-background);
+    background-color: var(--color-button-background);
     font-family: "BodyFont";
     color: var(--color-text-titles);
     padding: 8px 12px;
@@ -72,7 +72,7 @@
     transform: translateX(-50%);
     border-width: 6px;
     border-style: solid;
-    border-color: var(--color-element-background) transparent transparent transparent;
+    border-color: var(--color-button-background) transparent transparent transparent;
 }
 
 .tooltip:hover .tooltip-text {
