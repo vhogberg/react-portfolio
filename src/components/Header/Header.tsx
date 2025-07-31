@@ -103,7 +103,7 @@ function Header() {
           Utbildning
         </a>
         <a href="#awards" onClick={() => setMenuOpen(false)}>
-          Priser
+          Utmärkelser
         </a>
         <a href="#projects" onClick={() => setMenuOpen(false)}>
           Projekt
