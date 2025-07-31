@@ -1,8 +1,8 @@
-# Coding Portfolio 🚀
+# Coding Portfolio 🤖
 
-Welcome to my **personal portfolio**, built with **React**, **TypeScript**, and **Vite**. This site highlights my skills, experience, education, awards and projects in a clean, responsive layout.
+Welcome to my **personal coding portfolio**, built with **React**, **TypeScript**, and **Vite**. This site highlights my skills, experience, education, awards and projects in a clean, responsive layout.
 
-🌐 [www.viktorhogberg.com](https://www.viktorhogberg.com/)
+Visit at: [www.viktorhogberg.com](https://www.viktorhogberg.com/)
 
 ## Tech Stack 🛠️
 
