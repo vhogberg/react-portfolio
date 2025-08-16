@@ -29,7 +29,6 @@ export const educationItems = [
     organisation: "Tullinge Gymnasium",
     description: [
       "Ämnen i företagsekonomi, privatjuridik, affärsjuridik och mera.",
-      "Vinnare av årets bästa gymnasiearbete 🏆"
     ],
     logo: tullingeLogo,
   },

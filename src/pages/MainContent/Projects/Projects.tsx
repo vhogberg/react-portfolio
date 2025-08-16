@@ -28,7 +28,7 @@ function Projects() {
             "Varje runda börjar med en suddig poster som gradvis blir tydligare ju fler ledtrådar som avslöjas. Spelaren kan skriva in sin gissning eller ge upp för att få en ny slumpmässig film. Ett roligt sätt att träna minnet och filmkunskaper!",
           ]}
           githubLink="https://github.com/vhogberg/movieguessr"
-          openLink="https://movieguessrvercel.app/"
+          openLink="https://movieguessr.vercel.app/"
           imageUrl={movieguessrImage}
           technologies={["React", "TypeScript", "CSS", "Vite"]}
         />
