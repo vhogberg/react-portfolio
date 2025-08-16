@@ -3,7 +3,8 @@ import ProjectItem from "./ProjectItem/ProjectItem";
 import gridguruImage from "../../../assets/images/gridguru-project.png";
 import mathrushImage from "../../../assets/images/mathrush-image.png";
 import midnattsloppetImage from "../../../assets/images/midnattsloppet-project.png";
-import portfolioImage from "../../../assets/images/portfolio-project.png";
+import movieguessrImage from "../../../assets/images/movieguessr-image.png";
+// import portfolioImage from "../../../assets/images/portfolio-project.png";
 import reactmailImage from "../../../assets/images/reactmail-image.png";
 import sortinglabImage from "../../../assets/images/sortinglab-image.png";
 import terratriviaImage from "../../../assets/images/terratrivia-image.png";
@@ -31,6 +32,18 @@ function Projects() {
           imageUrl={sortinglabImage}
           technologies={["HTML5", "CSS", "JavaScript"]}
         />
+        
+        <ProjectItem
+          title="MovieGuessr"
+          description={[
+            "Ett interaktivt spel som testar filmkunskaper genom att gissa filmtitlar baserat på suddiga posters och ledtrådar.",
+            "Varje runda börjar med en suddig poster som gradvis blir tydligare ju fler ledtrådar som avslöjas. Spelaren kan skriva in sin gissning eller ge upp för att få en ny slumpmässig film. Ett roligt sätt att träna minnet och filmkunskaper!",
+          ]}
+          githubLink="https://github.com/vhogberg/movieguessr"
+          openLink="https://movieguessrvercel.app/"
+          imageUrl={movieguessrImage} 
+          technologies={["React", "TypeScript", "CSS", "Vite"]}
+        />
 
         <ProjectItem
           title="Midnattsloppet Fortal"
@@ -43,6 +56,8 @@ function Projects() {
           imageUrl={midnattsloppetImage}
           technologies={["Flutter", "Java", "MariaDB", "Tomcat", "Jenkins"]}
         />
+
+        
 
         <ProjectItem
           title="GridGuru"
@@ -111,7 +126,7 @@ function Projects() {
           technologies={["HTML5", "CSS", "JavaScript", "JSON"]}
         />
 
-        <ProjectItem
+        {/* Portfolio Project <ProjectItem
           title="Portfölj"
           description={[
             "Min personliga portfölj som visar upp mina projekt och erfarenheter.",
@@ -120,8 +135,9 @@ function Projects() {
           githubLink="https://github.com/vhogberg/react-portfolio"
           openLink="https://www.viktorhogberg.com/"
           imageUrl={portfolioImage}
-          technologies={["React", "TypeScript", "CSS"]}
-        />
+          technologies={["React", "TypeScript", "CSS", "Vite"]}
+        />*/}
+        
       </div>
     </section>
   );

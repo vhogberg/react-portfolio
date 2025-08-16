@@ -19,6 +19,7 @@ import roomdbLogo from "../../../../../assets/logos/tech-logos/roomdb.svg";
 import springBootLogo from "../../../../../assets/logos/tech-logos/spring-boot.svg";
 import tomcatLogo from "../../../../../assets/logos/tech-logos/tomcat.svg";
 import typescriptLogo from "../../../../../assets/logos/tech-logos/typescript.svg";
+import viteLogo from "../../../../../assets/logos/tech-logos/vite.svg";
 
 
 export const techLogoMap: Record<string, string> = {
@@ -42,4 +43,5 @@ export const techLogoMap: Record<string, string> = {
   "Spring Boot": springBootLogo,
   Tomcat: tomcatLogo,
   TypeScript: typescriptLogo,
+  Vite: viteLogo,
 };
