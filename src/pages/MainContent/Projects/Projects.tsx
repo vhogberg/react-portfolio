@@ -21,18 +21,7 @@ function Projects() {
         och funktioner finns i respektive projekts README-fil på Github!
       </p>
       <div className="projects-container">
-        <ProjectItem
-          title="SortingLab"
-          description={[
-            "Ett interaktivt, spelbaserat verktyg som hjälper studenter att lära sig sorteringsalgoritmer på ett engagerande sätt.",
-            "Genom att förvandla teoretiska sorteringsmetoder till praktiska utmaningar med poäng, liv och tidsbegränsningar gör SortingLab inlärningen både rolig och effektiv.",
-          ]}
-          githubLink="https://github.com/vhogberg/sortinglab"
-          openLink="https://sortinglab.vercel.app/"
-          imageUrl={sortinglabImage}
-          technologies={["HTML5", "CSS", "JavaScript"]}
-        />
-        
+
         <ProjectItem
           title="MovieGuessr"
           description={[
@@ -46,18 +35,16 @@ function Projects() {
         />
 
         <ProjectItem
-          title="Midnattsloppet Fortal"
+          title="SortingLab"
           description={[
-            "Ett projekt byggt i projektgrupp på tio personer i samarbete med Midnattsloppet för att kombinera löpning och välgörenhet.",
-            "Appen gör det möjligt för företag att skapa lag, samla in donationer till valda organisationer via swish, utmana andra lag och följa insamlingsresultat via topplistor och notifikationer – allt för att öka engagemang och bidra till en god sak.",
+            "Ett interaktivt, spelbaserat verktyg som hjälper studenter att lära sig sorteringsalgoritmer på ett engagerande sätt.",
+            "Genom att förvandla teoretiska sorteringsmetoder till praktiska utmaningar med poäng, liv och tidsbegränsningar gör SortingLab inlärningen både rolig och effektiv.",
           ]}
-          githubLink="https://github.com/vhogberg/midnattsloppet_app_frontend"
-          demoLink="https://youtube.com/shorts/nnDU-ftcbvU?feature=share"
-          imageUrl={midnattsloppetImage}
-          technologies={["Flutter", "Java", "MariaDB", "Tomcat", "Jenkins"]}
+          githubLink="https://github.com/vhogberg/sortinglab"
+          openLink="https://sortinglab.vercel.app/"
+          imageUrl={sortinglabImage}
+          technologies={["HTML5", "CSS", "JavaScript"]}
         />
-
-        
 
         <ProjectItem
           title="GridGuru"
@@ -82,6 +69,19 @@ function Projects() {
           imageUrl={tickitoffImage}
           technologies={["Kotlin", "Jetpack Compose", "RoomDB"]}
         />
+
+                <ProjectItem
+          title="Midnattsloppet Fortal"
+          description={[
+            "Ett projekt byggt i projektgrupp på tio personer i samarbete med Midnattsloppet för att kombinera löpning och välgörenhet.",
+            "Appen gör det möjligt för företag att skapa lag, samla in donationer till valda organisationer via swish, utmana andra lag och följa insamlingsresultat via topplistor och notifikationer – allt för att öka engagemang och bidra till en god sak.",
+          ]}
+          githubLink="https://github.com/vhogberg/midnattsloppet_app_frontend"
+          demoLink="https://youtube.com/shorts/nnDU-ftcbvU?feature=share"
+          imageUrl={midnattsloppetImage}
+          technologies={["Flutter", "Java", "MariaDB", "Tomcat", "Jenkins"]}
+        />
+
 
         <ProjectItem
           title="ReactMail"
