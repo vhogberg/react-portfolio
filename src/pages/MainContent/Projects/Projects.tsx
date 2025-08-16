@@ -21,7 +21,6 @@ function Projects() {
         och funktioner finns i respektive projekts README-fil på Github!
       </p>
       <div className="projects-container">
-
         <ProjectItem
           title="MovieGuessr"
           description={[
@@ -30,7 +29,7 @@ function Projects() {
           ]}
           githubLink="https://github.com/vhogberg/movieguessr"
           openLink="https://movieguessrvercel.app/"
-          imageUrl={movieguessrImage} 
+          imageUrl={movieguessrImage}
           technologies={["React", "TypeScript", "CSS", "Vite"]}
         />
 
@@ -70,7 +69,7 @@ function Projects() {
           technologies={["Kotlin", "Jetpack Compose", "RoomDB"]}
         />
 
-                <ProjectItem
+        <ProjectItem
           title="Midnattsloppet Fortal"
           description={[
             "Ett projekt byggt i projektgrupp på tio personer i samarbete med Midnattsloppet för att kombinera löpning och välgörenhet.",
@@ -81,7 +80,6 @@ function Projects() {
           imageUrl={midnattsloppetImage}
           technologies={["Flutter", "Java", "MariaDB", "Tomcat", "Jenkins"]}
         />
-
 
         <ProjectItem
           title="ReactMail"
@@ -137,7 +135,6 @@ function Projects() {
           imageUrl={portfolioImage}
           technologies={["React", "TypeScript", "CSS", "Vite"]}
         />*/}
-        
       </div>
     </section>
   );
