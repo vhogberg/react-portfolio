@@ -52,7 +52,7 @@ function Projects() {
             "Vinnare för bästa design i kursen Webbutveckling 2 på Stockholms Universitet 🏆",
           ]}
           githubLink="https://github.com/vhogberg/gridguru"
-          openLink="https://gridguruf1quiz.vercel.app/"
+          openLink="https://gridguru.vercel.app/"
           imageUrl={gridguruImage}
           technologies={["HTML5", "CSS", "JavaScript", "JSON", "PHP", "MySQL"]}
         />
