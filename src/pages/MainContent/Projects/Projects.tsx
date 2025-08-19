@@ -24,8 +24,8 @@ function Projects() {
         <ProjectItem
           title="MovieGuessr"
           description={[
-            "Ett interaktivt spel som testar filmkunskaper genom att gissa filmtitlar baserat på suddiga posters och ledtrådar.",
-            "Varje runda börjar med en suddig poster som gradvis blir tydligare ju fler ledtrådar som avslöjas. Spelaren kan skriva in sin gissning eller ge upp för att få en ny slumpmässig film. Ett roligt sätt att träna minnet och filmkunskaper!",
+            "Ett spel som testar dina filmkunskaper genom att gissa titlar från suddiga posters och ledtrådar.",
+            "Varje runda börjar med en suddig poster som gradvis blir tydligare ju fler ledtrådar som avslöjas. Spelaren kan skriva in sin gissning eller ge upp för att få en ny slumpad film bland cirka 500 titlar. Ett roligt sätt att träna minnet och filmkunskaper!",
           ]}
           githubLink="https://github.com/vhogberg/movieguessr"
           openLink="https://movieguessr.vercel.app/"
@@ -104,7 +104,7 @@ function Projects() {
           title="MathRush"
           description={[
             "Fartfyllt matematikspel där du har 60 sekunder på dig att lösa så många matteproblem som möjligt.",
-            "Välj mellan addition, subtraktion, multiplikation eller division.",
+            "Välj mellan addition, subtraktion, multiplikation eller division och testa dina mattekunskaper!",
           ]}
           githubLink="https://github.com/vhogberg/mathrush"
           openLink="https://mathrushgame.vercel.app/"
