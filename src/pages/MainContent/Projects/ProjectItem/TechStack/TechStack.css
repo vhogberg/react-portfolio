@@ -15,8 +15,8 @@
 }
 
 .tech-icon {
-  max-width: 100%;
-  max-height: 100%;
+  width: 32px;
+  height: 32px !important;
   transition: transform 0.4s ease;
 }
 
@@ -25,58 +25,56 @@
 }
 
 .jenkins-logo {
-    width: auto !important;
-    height: 2rem !important;
+  width: auto !important;
 }
+
 /* Wrapper for each tech logo */
 .tooltip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .tooltip img {
-    width: 2rem;
-    height: auto;
-    transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .tooltip:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Tooltip bubble */
 .tooltip .tooltip-text {
-    position: absolute;
-    bottom: 120%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: var(--color-button-background);
-    font-family: "BodyFont";
-    color: var(--color-text-titles);
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-button-background);
+  font-family: "BodyFont";
+  color: var(--color-text-titles);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .tooltip .tooltip-text::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 6px;
-    border-style: solid;
-    border-color: var(--color-button-background) transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: var(--color-button-background) transparent transparent transparent;
 }
 
 .tooltip:hover .tooltip-text {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(-4px);
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-4px);
 }
