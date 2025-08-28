@@ -10,8 +10,9 @@ export const experienceItems = [
     title: "Frontendutvecklare",
     organisation: "RaySearch Laboratories AB",
     description: [
-      "Ansvarar för att implementera moderna användargränssnitt för RayIntelligence, ett analysverktyg för strålbehandling.",
-      "Jag utvecklar webbaserade applikationer med Apache Superset och bygger dynamiska och högkvalitativa datavisualiseringar med React, TypeScript och Apache ECharts."
+      "Jag arbetar i teamet bakom RayIntelligence, ett analysverktyg som används inom cancerbehandling.",
+      "I rollen utvecklar jag gränssnitt som gör stora och komplexa dataset mer överskådliga och användbara för kliniker med hjälp av maskininlärning.",
+      "Jag arbetar främst med React, TypeScript, JavaScript, Apache Superset och Apache ECharts.",
     ],
     logo: raySearchLogo,
   },
@@ -22,7 +23,7 @@ export const experienceItems = [
     description: [
       "Jag hanterade över 1200 incidenter med verktyg som Azure, Active Directory och Exchange under två somrar, vilket krävde snabb problemlösning och stresstålighet.",
       "I rollen ansvarade jag för att identifiera, felsöka och åtgärda tekniska fel, vilket bidrog till att upprätthålla driftsstabiliteten och minimera driftstoppens omfattning.",
-      "Genom att även optimera processerna för incidenthantering förbättrade jag arbetsflödet, vilket ledde till kortare svarstider och högre effektivitet inom teamet."
+      "Genom att även optimera processerna för incidenthantering förbättrade jag arbetsflödet, vilket ledde till kortare svarstider och högre effektivitet inom teamet.",
     ],
     logo: ifInsuranceLogo,
   },
@@ -32,7 +33,7 @@ export const experienceItems = [
     organisation: "PostNord AB",
     description: [
       "Jag ansvarade för hantering, sortering och utkörning av paket på Södermalm.",
-      "Arbetet utfördes mestadels självständigt och under tidspress, vilket stärkte min förmåga att prioritera effektivt."
+      "Arbetet utfördes mestadels självständigt och under tidspress, vilket stärkte min förmåga att prioritera effektivt.",
     ],
     logo: postnordLogo,
   },
@@ -42,7 +43,7 @@ export const experienceItems = [
     organisation: "Sören Lundgren Byggkonsult AB",
     description: [
       "Jag ansvarade för driftsättning av nya datorer, vilket effektiviserade arbetsflödet och förbättrade den tekniska infrastrukturen i verksamheten.",
-      "Detta innefattade installation av operativsystem och nödvändig programvara, samt mer specifik användaranpassning."
+      "Detta innefattade installation av operativsystem och nödvändig programvara, samt mer specifik användaranpassning.",
     ],
     logo: slbLogo,
   },
@@ -51,9 +52,8 @@ export const experienceItems = [
     title: "IT-praktikant",
     organisation: "Macrent AB",
     description: [
-      "Jag lärde mig grunderna i datorreparation och fick en inblick i arbetsflödet på en IT-avdelning."
+      "Jag lärde mig grunderna i datorreparation och fick en inblick i arbetsflödet på en IT-avdelning.",
     ],
     logo: macrentLogo,
   },
 ];
-
