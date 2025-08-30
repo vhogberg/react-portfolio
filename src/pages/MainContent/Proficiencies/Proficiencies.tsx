@@ -33,7 +33,7 @@ const proficiencies = [
 
 function Proficiencies() {
   return (
-    <>
+    <section id="proficiencies">
       <h1>Färdigheter</h1>
       <div id="proficiency-list">
         {proficiencies.map((item, index) => (
@@ -51,7 +51,7 @@ function Proficiencies() {
         Denna bredd gör att jag kan bidra i olika delar av ett projekt, från
         design och utveckling till problemlösning och systemförståelse.
       </p>
-    </>
+    </section>
   );
 }
 
